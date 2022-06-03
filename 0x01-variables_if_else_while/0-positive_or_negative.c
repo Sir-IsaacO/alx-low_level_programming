@@ -1,6 +1,5 @@
 /*
- * File: 0-positive_or_negative.c
- * Auth: Sunday Isaac Ozovehe
+ * Author of this file is Sunday Isaac Ozovehe
  */
 
 #include <stdlib.h>
