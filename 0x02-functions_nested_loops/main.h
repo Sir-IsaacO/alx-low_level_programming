@@ -1,8 +1,8 @@
-#ifndef MAIN_C
-#define MAIN_C
+#ifndef MAIN_H
+#define MAIN_H
 
 char _putchar(char c);
-void print_alphabet(voi);
+void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
@@ -15,4 +15,4 @@ int add(int one, int two);
 void print_to_98(int n);
 void print_times_table(int n);
 
-#endif /* MAIN_C */
+#endif /* MAIN_H */
