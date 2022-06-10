@@ -5,10 +5,11 @@
  * _putchar only 3 times
  * Return: 0-14 x10 followed by new line
  */
+void more_numbers(void)
 {
-	int i, j;
+	int i, ro;
 
-	for (j = 0; j < 10; j++)
+	for (ro = 0; ro < 10; ro++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
