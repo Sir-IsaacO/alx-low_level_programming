@@ -20,6 +20,3 @@ void reverse_array(int *a, int n)
 		a[n] = temp;
 	}
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
