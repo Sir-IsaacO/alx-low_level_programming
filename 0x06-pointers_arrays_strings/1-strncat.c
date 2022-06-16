@@ -1,24 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strncat - check the code for Holberton School students.
- * @dest: Destination string
- * @src: String to be added
- * @n: Array block
- * Return: Always 0.
+ * _strncat - appends first n characters from src to dest
+ *
+ * @dest: destination array
+ * @src: source array
+ * @n: number of characters
+ *
+ * Return: dest string
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	char *ptr = dest;
 
-	for (i = 0; dest[i] != '\0'; i++)
-		;
-
-	for (j = 0; j < n; j++, i++)
-	{
-		dest[i] = src[j];
-	}
+	while (*ptr != 0)
+		ptr++;
+	while (n-- > 0)
+		*ptr++ = *src++;
+	*ptr = 0;
 
 	return (dest);
 }
